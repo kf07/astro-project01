@@ -1,8 +1,9 @@
 ---
-
+import Counter from "../components/solid/Counter";
+import Counter2 from "../components/react/Counter2";
 ---
 
-<html lang="en">
+<html lang="ja">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -12,5 +13,7 @@
 	</head>
 	<body>
 		<h1>Astro</h1>
+		<Counter client:load />
+		<Counter2 client:load />
 	</body>
 </html>
