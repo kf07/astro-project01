@@ -1,9 +1,10 @@
 <script>
-  let count = 0;
-  console.log('render svelte')
-  function incrementCount() {
-    count++;
-  }
+	let count = 0;
+	console.log('render svelte')
+
+	function incrementCount() {
+		count++;
+	}
 </script>
 
 <p>svelte</p>
