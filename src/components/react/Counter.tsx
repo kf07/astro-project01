@@ -4,9 +4,9 @@ const Counter = () => {
 	const [count, setCount] = useState(0);
 	console.log('render react');
 
-	function incrementCount() {
+	const incrementCount = () => {
 		setCount((count) => count + 1);
-	}
+	};
 
 	return (
 		<>

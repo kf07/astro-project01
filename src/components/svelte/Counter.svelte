@@ -2,9 +2,9 @@
 	let count = 0;
 	console.log('render svelte')
 
-	function incrementCount() {
+	const incrementCount = () => {
 		count++;
-	}
+	};
 </script>
 
 <p>svelte</p>

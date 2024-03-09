@@ -4,9 +4,9 @@ const Counter = () => {
 	const [count, setCount] = createSignal(0);
 	console.log('render solid');
 
-	function incrementCount() {
+	const incrementCount = () => {
 		setCount(count() + 1);
-	}
+	};
 
 	return (
 		<>
