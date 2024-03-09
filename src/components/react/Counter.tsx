@@ -1,6 +1,6 @@
 import {useState} from "react";
 
-const Counter2 = () => {
+const Counter = () => {
 	const [count, setCount] = useState(0);
 	console.log('render react');
 
@@ -17,4 +17,4 @@ const Counter2 = () => {
 	);
 }
 
-export default Counter2;
+export default Counter;

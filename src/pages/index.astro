@@ -1,7 +1,7 @@
 ---
-import Counter from "../components/solid/Counter.tsx";
-import Counter2 from "../components/react/Counter2.tsx";
-import Counter3 from "../components/svelte/Counter3.svelte";
+import CounterSolid from "../components/solid/Counter.tsx";
+import CounterReact from "../components/react/Counter.tsx";
+import CounterSvelte from "../components/svelte/Counter.svelte";
 ---
 
 <html lang="ja">
@@ -14,8 +14,8 @@ import Counter3 from "../components/svelte/Counter3.svelte";
 </head>
 <body>
 	<h1>Astro</h1>
-	<Counter client:load/>
-	<Counter2 client:load/>
-	<Counter3 client:load/>
+	<CounterSolid client:load/>
+	<CounterReact client:load/>
+	<CounterSvelte client:load/>
 </body>
 </html>
