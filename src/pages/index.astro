@@ -2,6 +2,7 @@
 import CounterSolid from "../components/solid/Counter.tsx";
 import CounterReact from "../components/react/Counter.tsx";
 import CounterSvelte from "../components/svelte/Counter.svelte";
+import CounterQwik from "../components/qwik/Counter.tsx";
 ---
 
 <html lang="ja">
@@ -17,5 +18,6 @@ import CounterSvelte from "../components/svelte/Counter.svelte";
 	<CounterSolid client:load/>
 	<CounterReact client:load/>
 	<CounterSvelte client:load/>
+	<CounterQwik />
 </body>
 </html>
